@@ -12,7 +12,7 @@ public class ReverseWord {
         }
         return count+1;
     }
-    private static void wordReverse(String s, int n) {
+    private static void reverseWord(String s, int n) {
 
         String words[] = s.split(" ");
         String nWord = words[n-1];
@@ -43,7 +43,7 @@ public class ReverseWord {
         int n = sc.nextInt();
 
         if(n<=wordCount){
-            wordReverse(st,n);
+            reverseWord(st,n);
 
         }
         
