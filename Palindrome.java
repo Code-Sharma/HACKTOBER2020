@@ -1,6 +1,6 @@
 import java.util.*;
 public class Palindrome {
-    public static boolean isPalindrome(String s) {
+    public static boolean Palindrome(String s) {
         
         int i =0,j =s.length()-1;
         while (i < j) { 
@@ -25,7 +25,7 @@ public class Palindrome {
         String input = sc.next();
 
 
-        if(isPalindrome(input.toUpperCase())){
+        if(Palindrome(input.toUpperCase())){
             System.out.println(input+" is a palindrome");
         }
         else
