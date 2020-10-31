@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Weights {
-    public static void minSum(int[] stones,int n){
+    public static void minSumofWeights(int[] stones,int n){
         int sum = stones[0]; 
       
         for (int i = 1; i < n; i++)  
@@ -32,7 +32,7 @@ public class Weights {
 
         }
 
-        minSum(stones,n);
+        minSumofWeights(stones,n);
 
     }
     
